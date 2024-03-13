@@ -1,0 +1,15 @@
+.App input {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.App button {
+    text-align: center;
+    margin-left: 20px;
+}
