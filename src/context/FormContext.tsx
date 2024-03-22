@@ -4,6 +4,7 @@ interface FormData {
     firstName: string;
     lastName: string;
     email: string;
+    password: string;
 }
 interface ContextType {
     formData: FormData;
@@ -19,7 +20,7 @@ interface FormProviderProps {
 }
 
 export const FormProvider: React.FC<FormProviderProps> = ({ children }) => {
-    const [formData, setFormData] = useState<FormData>({ firstName: "", lastName: "", email: "" });
+    const [formData, setFormData] = useState<FormData>({ firstName: "", lastName: "", email: "", password: "" });
     const [currentStep, setCurrentStep] = useState(1);
 
     return (

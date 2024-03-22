@@ -25,6 +25,12 @@ const Stepthree: React.FC = () => {
                 value={formData.email}
                 onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
             />
+            <input
+                type="password"
+                placeholder="password"
+                value={formData.email}
+                onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
+            />
         </div>
     );
 };
